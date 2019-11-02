@@ -1,6 +1,6 @@
 .container { 
     display: grid; 
-    grid-template-columns: repeat(5,200px);
+    grid-template-columns: repeat(3,400px);
     
 
 }
@@ -17,7 +17,7 @@ footer {
 }
 
 .gallery img {
-    width: 280px !important;
+    width: 400px !important;
     height: 280px !important;
 }
 .desc {
@@ -29,6 +29,11 @@ footer {
 .gallery {
     margin: 5px;
     float: left;
-    width: 350px;
+    width: 400px;
 }
-  
+  .title {
+    font-family: 'Fascinate Inline', cursive;
+    color: red;
+    text-align: center; 
+    font-size: 50px; 
+  }
